@@ -1,0 +1,191 @@
+* {
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Segoe UI";
+}
+
+.container {
+    padding: 1rem 2rem;
+    max-width: 400px;
+    border-radius: 1.5rem;
+    user-select: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container .usericon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateY(25%);
+    margin-right: 0.5rem;
+}
+
+.container .attachment1 {
+    margin-top: 0.5rem;
+    width: 10rem;
+    height: auto;
+    border: 0.5px solid #505050;
+    border-radius: 1rem;
+}
+
+.container .attachment2 {
+    margin-top: 0.5rem;
+    width: 10rem;
+    height: auto;
+    border: 0.5px solid #505050;
+    border-radius: 1rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.info h4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.info .username {
+    font-size: 1rem;
+    color: #aaa;
+    padding: 0rem 0rem 0rem 0.5rem;
+}
+
+.info .options {
+    transform: none;
+    padding: 0rem 0rem 0rem 4.25rem;
+    border-radius: 0;
+    object-fit: contain; 
+    width: 5rem;
+    height: 5rem;
+}
+
+.info .time {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.content {
+    cursor: text;
+    margin-left: 3.5rem;
+    margin-top: -1.8rem;
+    width: calc(100% - 3.5rem);
+    min-width: 0;
+}
+
+.content h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.4;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.content .attachment{
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.fetchName {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 200px;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fetchButton {
+    background: #ffffff;
+    color: black;
+    border-radius: 10px;
+    border-color: white;
+    width: 200px;
+    height: 30px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    white-space: nowrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.information > * {
+    margin: 0;
+    transform: none;
+    line-height: 1.2;
+}
+
+.information .Reply {
+    transform: none;
+    margin-right: 0;
+    border-radius: 0;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.information .Repost {
+    transform: none;
+    margin-right: 0;
+    border-radius: 0;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.information .Like {
+    transform: none;
+    margin-right: 0;
+    border-radius: 0;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.information .Views {
+    transform: none;
+    margin-right: 0;
+    border-radius: 0;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.information .Share {
+    transform: none;
+    margin-right: 0;
+    border-radius: 0;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.information h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(114,118,122);
+    transform: none;
+}
